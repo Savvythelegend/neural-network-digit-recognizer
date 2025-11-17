@@ -108,4 +108,4 @@ print(f"Predicted: {predict_digit(model, img)}")
 
 ---
 
-**Built from scratch** 🎓 | **Pure NumPy** 📐 | **Production Ready** ✨
+**Built from scratch** 🎓 | **Pure NumPy** 📐 | numpy, calculas Love ❤️
