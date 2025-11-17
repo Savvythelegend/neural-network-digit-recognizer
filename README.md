@@ -97,6 +97,10 @@ print(f"Predicted: {predict_digit(model, img)}")
   https://www.youtube.com/watch?v=A83BbHFoKb8  
   Complete guide to building neural networks from scratch, forward propagation, and network architecture.
 
+### Notes 
+- **Maths (Neuralnet Architecture and Backprop)**    
+    https://miro.com/app/board/uXjVLzJhIHU=/
+  
 ### Backpropagation & Gradient Descent
 - **Dr. RC - Computer Science (Backpropagation Playlist)**  
   https://www.youtube.com/playlist?list=PLJ4-ETiGBrdOZuDqcuEkGH6_MqGoxy4HW  
