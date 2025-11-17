@@ -17,18 +17,6 @@ ENV/
 *~
 .DS_Store
 
-# Model checkpoints (large files - download from releases)
-model/
-*.npz
-
-# Datasets (large files - download separately)
-datasets/
-*.csv
-
-# Jupyter Notebook
-.ipynb_checkpoints/
-*.ipynb
-
 # Python
 .pytest_cache/
 *.egg-info/
