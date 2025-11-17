@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model checkpoints (large files - download from releases)
+model/
+*.npz
+
+# Datasets (large files - download separately)
+datasets/
+*.csv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Python
+.pytest_cache/
+*.egg-info/
+dist/
+build/
