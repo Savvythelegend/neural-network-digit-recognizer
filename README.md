@@ -19,7 +19,7 @@ python main.py
 - Real-time webcam inference
 - Prediction smoothing (no flickering)
 - Model checkpointing
-- ~96-97% accuracy on MNIST
+- ~87-88% accuracy on MNIST
 
 ## Architecture Breakdown
 
@@ -89,33 +89,6 @@ img = cv2.imread("digit.png", cv2.IMREAD_GRAYSCALE)
 img = cv2.resize(img, (28, 28))
 print(f"Predicted: {predict_digit(model, img)}")
 ```
-
-## Configuration
-
-Edit `src/config.py`:
-
-```python
-LAYER_DIMS = [10, 784, 10]                  # [hidden, input, output]
-LEARNING_RATE = 0.1                         # SGD learning rate
-TRAINING_ITERATIONS = 500                   # Epochs
-PREDICTION_SMOOTHING_WINDOW = 8             # Frames to average
-PREDICTION_CONFIDENCE_THRESHOLD = 0.6       # Min confidence
-```
-
-## Performance
-
-- Training: ~2-3 minutes (CPU)
-- Inference: ~20-30 FPS
-- Model size: ~100KB
-
-## Troubleshooting
-
-| Issue | Fix |
-|-------|-----|
-| Module errors | Run from `src/`: `cd src && python main.py` |
-| Webcam won't open | Check device with OpenCV |
-| Poor detection | Adjust threshold; improve lighting |
-| Install errors | `pip install -r requirements.txt` |
 
 ## 📚 Learning Resources
 
